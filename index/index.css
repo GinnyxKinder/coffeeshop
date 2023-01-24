@@ -1,0 +1,140 @@
+html{
+    scroll-behavior: smooth;
+}
+#top{
+    text-align: center;
+    background-size: cover;
+    background: darkgrey url("titlepic.jpg") no-repeat center center fixed;
+    height: 850px;
+    font-family: "Helvetica", monospace;
+    font-style: normal;
+    font-weight: 50;
+    letter-spacing: 1.8em;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    width: 100%
+}
+#about{
+    text-align: center;
+    background-color: white;
+    font-family: "Helvetica", monospace;
+    display: inline-block;
+    child-align: middle;
+}
+#menu{
+    text-align: center;
+    font-family: "Helvetica", monospace;
+    color: white;
+}
+#careers{
+    font-family: "Helvetica", monospace;
+    background-color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+    color: #fff;
+    font-weight: lighter;
+}
+h2{
+    font-size: 50px;
+    color: #fff;
+    font-weight: lighter;
+}
+h3{
+    font-family: "Helvetica", monospace;
+    color: #fff;
+    letter-spacing: .2em;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+li{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+button{
+    background-color: #2d5f5f;
+    font-family: "Helvetica", monospace;
+    color: #c1c1b9;
+    padding: 15px 32px;
+    letter-spacing: .45em;
+    font-weight: 600;
+}
+#submit {
+    background-color: #2d5f5f;
+    font-family: "Helvetica", monospace;
+    color: #c1c1b9;
+    padding: 10px 15px;
+    letter-spacing: .2em;
+    font-weight: 500;
+}
+
+.ontheright{
+    text-align: right;
+}
+
+body{
+    background-color: #252b2b;
+}
+p{
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.picingrid {
+    float: left;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+#picturegrid{
+    display: inline-grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    grid-column-gap:15px;
+    grid-row-gap: 15px;
+    justify-items: center;
+}
+.solid{
+    border-top: 1px solid black;
+    width: 58%;
+
+}
+
+.menuitems{
+    display: inline-grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 35px;
+    justify-items: center;
+    width: 65%;
+
+}
+iframe{
+    height: 500px;
+    width: 500px;
+}
+
+footer{
+    text-align: center;
+    padding: 50px 50px;
+    grid-column-gap: 100px;
+
+
+}
